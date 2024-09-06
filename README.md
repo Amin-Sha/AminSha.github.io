@@ -1,39 +1,5 @@
-## Portfolio
+Repository of my Personal Portfolio build completely using Html, CSS and a little bit of Javascript
 
-My Portfolio repositry to show my skills and projects.
-Take a look on [ahmedalmory.github.io/portfolio](https://ahmedalmory.github.io/portfolio)
+You can check the deployed site at -> [garvnanwani.github.io](garvnanwani.github.io)  
 
-## Built with
-
-- Vue JS
-- Tailwind CSS
-- i18n
-- EmailJS
-
-## Features
-
-- Single-Page (SPA)
-- Multilingual Support(Arabic, English, French, Spanish)
-- Dark mode
-- Chat Bot
-- Full responsive
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+If you like it please consider giving it a star

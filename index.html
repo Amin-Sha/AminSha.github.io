@@ -1,41 +1,758 @@
 <!DOCTYPE html>
-<html >
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171127653-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    referrerpolicy="no-referrer" />
+    gtag('config', 'UA-171127653-2');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Ahmed Almory</title>
+  <!-- Primary Meta Tags -->
+  <title>Garv Nanwani || Home</title>
+  <meta name="title" content="Garv Nanwani || Home">
+  <meta name="description" content="Official Portfolio Website of Garv Nanwani, Second Year Undergraduate Student, highly
+  enthusiastic about programming and creating things">
 
+  <!-- Open Graph / Facebook -->
+  <meta property="og:url" content="https://garvnanwani.netlify.app" />
+  <meta property="og:title" content="Garv Nanwani || Home" />
+  <meta property="og:description" content="Official Portfolio Website of Garv Nanwani, Second Year Undergraduate Student, highly
+  enthusiastic about programming and creating things" />
+  <meta property="og:image" content="https://garvnanwani.netlify.app/images/mypic.jpg" />
+  <meta property="og:image:alt" content="garv nanwani" />
+  <meta property="og:type" content="website">
 
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-WM4WMB5');</script>
-  <!-- End Google Tag Manager -->
+  <!-- Twitter -->
+  <meta property="twitter:url" content="https://garvnanwani.netlify.app">
+  <meta property="twitter:title" content="Garv Nanwani || Home">
+  <meta property="twitter:description" content="Official Portfolio Website of Garv Nanwani, Second Year Undergraduate Student, highly
+    enthusiastic about programming and creating things">
+  <meta property="twitter:image" content="https://garvnanwani.netlify.app/images/mypic.jpg">
 
+  <!-- css -->
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" href="./images/GNlogo.png" type="icon">
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM4WMB5" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <div id="app"></div>
+  <!-- navbar -->
+  <nav class="nav" id="id" id="home">
+    <div class="nav-center">
+      <!-- logo -->
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+      <div class="nav-header">
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
 
+      <!-- logo -->
+
+      <!-- nav-links -->
+      <div>
+        <ul class="nav-links">
+          <li>
+            <a href="#index">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#projects">projects</a>
+          </li>
+          <li>
+            <a href="#blogs">blogs</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- nav-links -->
+    </div>
+  </nav>
+  <!-- navbar -->
+  <!-- sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div>
+      <button class="close-btn" id="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <!-- nav-links -->
+
+      <ul class="sidebar-links">
+        <li>
+          <a href="#index" onclick="getElementById('close-btn').click()">home</a>
+        </li>
+        <li>
+          <a href="#about" onclick="getElementById('close-btn').click()">about</a>
+        </li>
+        <li>
+          <a href="#projects" onclick="getElementById('close-btn').click()">projects</a>
+        </li>
+        <li>
+          <a href="#blogs" onclick="getElementById('close-btn').click()">blogs</a>
+        </li>
+        <li>
+          <a href="#contact" onclick="getElementById('close-btn').click()">contact</a>
+        </li>
+      </ul>
+
+      <!-- nav-links -->
+
+      <!-- social links -->
+
+      <ul class="social-icons">
+        <li>
+          <a href="https://twitter.com/GarvNanwani" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/garvnanwani/" target="_blank" rel="noopener noreferrer"
+            class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Garvnanwani" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://dev.to/thisisgarv" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <i class="fab fa-dev"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/garv_nanwani/" target="_blank" rel="noopener noreferrer"
+            class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+
+      <!-- social-links -->
+    </div>
+  </aside>
+  <!-- sidebar -->
+  <!-- header -->
+  <header class="hero">
+    <div class="section-center hero-center">
+      <article class="hero-info">
+        <div class="underline"></div>
+        <h1>i'm Garv</h1>
+        <h4>Full Stack Web Developer And Designer</h4>
+        <a href="#contact" class="btn hero-btn">Contact me</a>
+        <!-- social icons -->
+        <ul class="social-icons hero-icons">
+          <li>
+            <a href="https://twitter.com/thisisgarv" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/garvnanwani/" target="_blank" rel="noopener noreferrer"
+              class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Garvnanwani" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://dev.to/thisisgarv" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <i class="fab fa-dev"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/garv_nanwani/" target="_blank" rel="noopener noreferrer"
+              class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </article>
+      <article class="hero-img">
+        <img src="./images/mypic.jpg" class="hero-photo" loading="lazy" alt="garv nanwani" />
+      </article>
+    </div>
+  </header>
+  <!-- end of header -->
+  <!-- about -->
+  <section class="section about" id="about">
+    <div class="section-center about-center">
+      <!-- about img -->
+      <article class="about-img">
+        <img src="./images/mypic2.jpg" class="hero-photo" loading="lazy" alt="garv nanwani" />
+      </article>
+      <!-- about info -->
+      <article class="about-info">
+        <!-- section title -->
+        <div class="section-title about-title">
+          <h2>about</h2>
+          <div class="underline"></div>
+        </div>
+        <!--end of section title -->
+        <p>
+          Hey, My name is Garv Nanwani and I am currently a Second Year Undergraduate Student at Jamia Millia Islamia,
+          New Delhi.
+        </p>
+        <p>
+          My field of Interests are programming and psychology.
+        </p>
+        <p>
+          I have been coding for around 2 years now. I love to design websites and build full stack applications using
+          MERN stack preferably.
+        </p>
+        <p>
+          I am also a guest writer at <a href="https://daily.dev" target="_blank" rel="noopener noreferrer"
+            class="daily-link">daily.dev</a> where I write
+          technical articles related to development and programming in general.
+        </p>
+        <a href="#connect" class="btn">Connect with me</a>
+      </article>
+    </div>
+  </section>
+  <!-- end of about -->
+  <!-- projects -->
+  <section class="section" id="projects">
+    <!-- section title -->
+    <div class="section-title">
+      <h2 class="section-primary">Projects</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center">
+      <div class="card-list">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./projects/project-1.jpg" loading="lazy" alt="blog project">
+          </div>
+          <div>
+            <h2>Blogging Site</h2>
+            <div class="title">Tech Used - Django Html Css</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc">Website where I can host my blogs. Made with Django backend, and all the user posts are
+            managed through admin.</div>
+          <div class="actions">
+            <a href="http://garvnanwani.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+            <a href="https://github.com/Garvnanwani/Garv-s-Space-Personal-Blog" target="_blank"
+              rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="fab fa-github"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./projects/project-2.png" loading="lazy" alt="weather-app project">
+          </div>
+          <div>
+            <h2>Weather PWA App</h2>
+            <div class="title">Tech Used - React, PWA</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc"> A PWA weather app which you can install on your phones as well as desktop. Functions
+            properly on every platform and loads an offline page when the user is offline.
+          </div>
+          <div class="actions">
+            <a href="https://garv-weather-app.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+            <a href="https://github.com/Garvnanwani/WeatherApp_PWA" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="fab fa-github"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./projects/project-3.jpg" loading="lazy" alt="Dictionary project">
+          </div>
+          <div>
+            <h2>Dictionary App</h2>
+            <div class="title">Tech Used - Html, CSS and JavaScript</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc">Dictionary wherein you can find the meaning of any word, gives suggestions and also has
+            feature for audio pronunciation of the word.
+          </div>
+          <div class="actions">
+            <a href="https://garvdictionary.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+            <a href="https://github.com/Garvnanwani/dictionary-app" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="fab fa-github"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./projects/project-4.png" loading="lazy" alt="Calculator project">
+          </div>
+          <div>
+            <h2>Calculator</h2>
+            <div class="title">Tech Used - Vanilla JavaScript</div>
+          </div>
+          <div class="colorband"></div>
+          <div class="desc">Calculator made using Html, CSS and JavaScript which can perform all the basic math
+            operations.</div>
+          <div class="actions">
+            <a href="https://garv-calculator.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="far fa-window-restore"></i>
+                  <span>
+                    Live Site
+                  </span>
+                </span>
+              </button>
+            </a>
+            <a href="https://github.com/Garvnanwani/Calculator-with-Javascript" target="_blank"
+              rel="noopener noreferrer">
+              <button>
+                <span>
+                  <i class="fab fa-github"></i>
+                  <span>
+                    Repo Link
+                  </span>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- end of projects -->
+  <!-- skills -->
+  <section class="section skills" id="skills">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>skills</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center skills-center">
+      <article>
+        <h3>Languages</h3>
+        <div class="skill-box-1">
+          <div>
+            <img class="skill-icn" src="./logos/python.svg" loading="lazy" alt="python">
+            <p class="skill-name">Python</p>
+          </div>
+          <div>
+            <img class="skill-icn" src="./logos/javascript.svg" loading="lazy" alt="javascript">
+            <p class="skill-name">Javascript</p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h3>Technologies</h3>
+        <div class="skill-box-2">
+          <div>
+            <img class="skill-icn" src="./logos/react.svg" loading="lazy" alt="react">
+            <p class="skill-name">React</p>
+          </div>
+
+          <div>
+            <img class="skill-icn" src="./logos/django.svg" loading="lazy" alt="django">
+            <p class="skill-name">Django</p>
+          </div>
+
+          <div>
+            <img class="skill-icn" src="./logos/node-js.svg" loading="lazy" alt="nodejs">
+            <p class="skill-name">Node js</p>
+          </div>
+
+        </div>
+      </article>
+      <article>
+        <h3>Tools</h3>
+        <div class="skill-box-3">
+          <div>
+            <img class="skill-icn" src="./logos/vscode.svg" loading="lazy" alt="vscode">
+            <p class="skill-name">Vs code</p>
+          </div>
+          <div>
+            <img class="skill-icn" src="./logos/git.svg" loading="lazy" alt="git">
+            <p class="skill-name">Git</p>
+          </div>
+          <div>
+            <img class="skill-icn" src="./logos/figma.svg" loading="lazy" alt="figma">
+            <p class="skill-name">Figma</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- end of skills -->
+  <!-- timeline -->
+  <section class="section timeline">
+    <!-- section title -->
+    <div class="section-title">
+      <h2 class="section-primary">timeline</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center timeline-center">
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>Sept - 2020</h4>
+        <p>
+          Currently working on a full stack MERN project.
+        </p>
+        <span class="number"> 6 </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>Aug - 2020</h4>
+        <p>
+          Started writing blogs, sharing my knowledge, and giving back to the community. Got pretty active on twitter,
+          Connected with a lot of like-minded developers, and trying to be an active member of the community as much as
+          I can, also made my blog with the help of Django to share what I learned with the community.
+        </p>
+        <span class="number"> 5 </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>April - 2020</h4>
+        <p>
+          Got hands onto react and nodejs, both are amazing technologies and slowly started getting my hands dirty with
+          MERN stack and learning how to make to full-fledged apps out of it.
+        </p>
+        <span class="number"> 4 </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4> Jan - 2020</h4>
+        <p>
+          Started with JavaScript, its a complete language in itself and it took me a while to get on hold with it.
+          Played around with JavaScript, skimmed through its frameworks, and make some small projects out of it.
+        </p>
+        <span class="number"> 3 </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>2019</h4>
+        <p>
+          School over, came into college. Started learning web development. Cleared the basics like how the web works,
+          how files are transferred, and all. Then completed an HTML, CSS course and designed some basic websites with
+          it that lacked functionality, and as I knew python I played around with Django and learned a lot about how the
+          backend works
+        </p>
+        <span class="number"> 2 </span>
+      </article>
+      <!-- end of  single timeline item -->
+      <!-- single timeline item -->
+      <article class="timeline-item">
+        <h4>2018</h4>
+        <p>
+          Started with learning python, my main goal with programming was to create things that could help the masses.
+          Python was a great language to jump on but it didn't teach the basics of how computer work so I learned java
+          and C with it.
+        </p>
+        <span class="number"> 1 </span>
+      </article>
+      <!-- end of  single timeline item -->
+    </div>
+  </section>
+  <!--end of  timeline -->
+  <!-- blog -->
+  <section class="section blog" id="blogs">
+    <!-- section title -->
+    <div class="section-title">
+      <h2>blog</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title -->
+    <div class="section-center">
+      <!-- single article -->
+      <div class="container">
+        <a href="https://dev.to/dailydotdev/introduction-to-testing-in-react-4958" target="_blank"
+          rel="noopener noreferrer">
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--DOPTqFp1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/upys89egbbj0fa806g8k.jpg"
+                loading="lazy" alt="Blog cover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Technology</span>
+              <h4>Introduction To Testing In React
+              </h4>
+              <p>
+                Consider a situation, You build out an entire application, and now you want to release it on the
+                web so
+                that other people can use it. But you are scared that your application may fail in some
+                conditions,
+              </p>
+              <div class="user">
+                <img src="./images/mypic.jpg" loading="lazy" alt="garv nanwani" />
+                <div class="user-info">
+                  <h5>Garv Nanwani</h5>
+                  <small>Oct 7</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://dev.to/dailydotdev/making-an-awesome-developer-portfolio-ek0" target="_blank"
+          rel="noopener noreferrer">
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--b1z_F-bw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/rnvyuuvo7dcityo08bi9.jpg"
+                loading="lazy" alt="Blog cover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Technology</span>
+              <h4>Making An Awesome Developer Portfolio</h4>
+              <p>
+                The two main things that can help you get that job are the necessary skills, projects, and a place to
+                showcase them.
+                That's where you need a killer portfolio.
+              </p>
+              <div class="user">
+                <img src="./images/mypic.jpg" loading="lazy" alt="garv nanwani" />
+                <div class="user-info">
+                  <h5>Garv Nanwani</h5>
+                  <small>Sept 21</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://dev.to/dailydotdev/8-tips-for-optimizing-your-website-s-speed-46da" target="_blank"
+          rel="noopener noreferrer">
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--5eT38Sdt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/j7rybxfyas3grpenn4hx.jpg"
+                loading="lazy" alt="Blog cover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Technology</span>
+              <h4>8 Tips for Optimizing Your Website’s
+                Speed
+              </h4>
+              <p>
+                Have you ever considered the performance of your website, how fast your content loads, and what is the
+                response time of your page?
+              </p>
+              <div class="user">
+                <img src="./images/mypic.jpg" loading="lazy" alt="garv nanwani" />
+                <div class="user-info">
+                  <h5>Garv Nanwani</h5>
+                  <small>Sept 15</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://dev.to/dailydotdev/semantic-html-and-why-does-it-matter-4kjh" target="_blank"
+          rel="noopener noreferrer">
+          <div class="card">
+            <div class="card-header">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--bx9DCmRJ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/y8zc4pnsyua3jq42e2xt.jpg"
+                loading="lazy" alt="Blog cover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Technology</span>
+              <h4>Semantic HTML And Why Does it Matter </h4>
+              <p>
+                Do you use a div tag for enclosing every significant section of your webpage and are tired of
+                maintaining the whole codebase afterward
+              </p>
+              <div class="user">
+                <img src="./images/mypic.jpg" loading="lazy" alt="garv nanwani" />
+                <div class="user-info">
+                  <h5>Garv Nanwani</h5>
+                  <small>Sept 3</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://dev.to/dailydotdev/what-is-a-pwa-and-why-you-should-know-about-it-31kf" target="_blank"
+          rel="noopener noreferrer">
+          <div class="card mobile-hidden">
+            <div class="card-header">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--vNq83PZg--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/k4ijh6bii59r3dye36lv.jpg"
+                loading="lazy" alt="Blog cover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Technology</span>
+              <h4>What is a PWA and why you should know about it</h4>
+              <p>
+                Have you ever wondered how you can convert your webpage to an app that can run on a mobile phone no
+                matter
+                its Android or
+                iOS?
+              </p>
+              <div class="user">
+                <img src="./images/mypic.jpg" loading="lazy" alt="garv nanwani" />
+                <div class="user-info">
+                  <h5>Garv Nanwani</h5>
+                  <small>Aug 18</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://dev.to/dailydotdev/getting-started-with-responsive-web-design-1h39" target="_blank"
+          rel="noopener noreferrer">
+          <div class="card mobile-hidden">
+            <div class="card-header">
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--XWHlMH3_--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/6dknixp8786pkgeq7tyy.jpg"
+                loading="lazy" alt="Blog cover" />
+            </div>
+            <div class="card-body">
+              <span class="tag tag-teal">Technology</span>
+              <h4>Getting Started With Responsive Web Design</h4>
+              <p>
+                Whenever you create any website, you often see the desktop version of it, but what if someone sees it on
+                a smaller screen size like a mobile phone or a tablet
+              </p>
+              <div class="user">
+                <img src="./images/mypic.jpg" loading="lazy" alt="garv nanwani" />
+                <div class="user-info">
+                  <h5>Garv Nanwani</h5>
+                  <small>Aug 8</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!--end of  blog -->
+  <!-- contact form -->
+  <section class="section contact" id="contact">
+    <div class="contact-card">
+      <div class="contact-desc">
+        <h6 class="primary-text">Contact Me</h6>
+      </div>
+      <form id="contact-form" class="contact-form">
+        <input type="text" placeholder="Your name" id="contact-name" class="contact-input">
+        <input type="email" placeholder="Your email" id="contact-email" class="contact-input">
+        <textarea placeholder="Message" id="contact-message" class="contact-input"></textarea>
+      </form>
+      <button class="contact-button primary-text">Send Message</button>
+    </div>
+  </section>
+  <!-- end of contact form -->
+  <!-- footer -->
+  <footer class="footer" id="connect">
+    <!-- social icons -->
+    <ul class="social-icons">
+      <li>
+        <a href="https://twitter.com/GarvNanwani" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/garvnanwani/" target="_blank" rel="noopener noreferrer"
+          class="social-icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Garvnanwani" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://dev.to/thisisgarv" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-dev"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/garv_nanwani/" target="_blank" rel="noopener noreferrer" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+
+    <p>&copy; <span id="date"></span> Garv Nanwani. All rights reserved <span>&#x1f1ee; &#x1f1f3;</span>
+    </p>
+  </footer>
+
+  <script async src="./js/app.js"></script>
 </body>
 
 </html>
