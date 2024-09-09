@@ -57,6 +57,9 @@
           <li>
             <a href="#about">about</a>
           </li>
+		  <li>
+            <a href="#timeline">timeline</a>
+          </li>
           <li>
             <a href="#projects">projects</a>
           </li>
@@ -82,6 +85,9 @@
         <li>
           <a href="#about" onclick="getElementById('close-btn').click()">about</a>
         </li>
+		<li>
+          <a href="#timeline" onclick="getElementById('close-btn').click()">timeline</a>
+        </li>
         <li>
           <a href="#projects" onclick="getElementById('close-btn').click()">projects</a>
         </li>
@@ -99,26 +105,28 @@
     </div>
   </aside>
   <!-- sidebar -->
+  
   <!-- header -->
   <header class="hero">
     <div class="section-center hero-center">
       <article class="hero-info">
         <div class="underline"></div>
-        <h1>i'm Garv</h1>
-        <h4>Full Stack Web Developer And Designer</h4>
+        <h1>i'm Amin</h1>
+        <h4>Python developer</h4>
       </article>
       <article class="hero-img">
-        <img src="./images/personal/mypic.jpg" class="hero-photo" loading="lazy" alt="garv nanwani" />
+        <img src="./images/personal/mypic.jpeg" class="hero-photo" loading="lazy" alt="garv nanwani" />
       </article>
     </div>
   </header>
   <!-- end of header -->
+  
   <!-- about -->
   <section class="section about" id="about">
     <div class="section-center about-center">
       <!-- about img -->
       <article class="about-img">
-        <img src="./images/personal/mypic2.jpg" class="hero-photo" loading="lazy" alt="garv nanwani" />
+        <img src="./images/personal/mypic2.jpeg" class="hero-photo" loading="lazy" alt="garv nanwani" />
       </article>
       <!-- about info -->
       <article class="about-info">
@@ -129,58 +137,53 @@
         </div>
         <!--end of section title -->
         <p>
-          Hey, My name is Garv Nanwani and I am currently a Second Year Undergraduate Student at Jamia Millia Islamia,
-          New Delhi.
+          Hey, My name is Amin and I am currently learning in high school.
         </p>
         <p>
-          My field of Interests are programming and psychology.
+          My field of Interests are programming and electronics.
         </p>
         <p>
-          I have been coding for around 2 years now. I love to design websites and build full stack applications using
-          MERN stack preferably.
-        </p>
-        <p>
-          I am also a guest writer at <a href="https://daily.dev" target="_blank" rel="noopener noreferrer"
-            class="daily-link">daily.dev</a> where I write
-          technical articles related to development and programming in general.
+          I have been coding for around a year now.
         </p>
       </article>
     </div>
   </section>
   <!-- end of about -->
+  
   <!-- projects -->
   <section class="section" id="projects">
+  
     <!-- section title -->
     <div class="section-title">
       <h2 class="section-primary">Projects</h2>
       <div class="underline"></div>
     </div>
     <!--end of section title -->
+	
     <div class="section-center">
       <div class="card-list">
-        <div class="project-card">
+        <div class="project-card" style="cursor: pointer;">
           <div class="project-img">
-            <img src="./images/projects/project-1.jpg" loading="lazy" alt="blog project">
+            <img src="./images/projects/project-1.png" loading="lazy" alt="blog project">
           </div>
           <div>
-            <h2>Blogging Site</h2>
-            <div class="title">Tech Used - Django Html Css</div>
+            <h2>Tic Tac Toe for Android</h2>
+            <div class="title">Code Used - Python Kivy</div>
           </div>
           <div class="colorband"></div>
-          <div class="desc">Website where I can host my blogs. Made with Django backend, and all the user posts are
-            managed through admin.</div>
+          <div class="desc">A tic tac toe game that has multiple changable factors like height and width of the grid, number of players and even against a "Ghost" player!</div>
           <div class="actions">
-            <a href="http://garvnanwani.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AminShapso/Application04_TicTic-TacTac-ToeToe/releases/download/AminationStudios/TicTacToe-1.0-arm64-v8a_armeabi-v7a-debug.apk" target="_blank" rel="noopener noreferrer">
               <button>
                 <span>
-                  <i class="far fa-window-restore"></i>
+                  <i class="fa-solid fa-download"></i>
                   <span>
-                    Live Site
+                    Download
                   </span>
                 </span>
               </button>
             </a>
-            <a href="https://github.com/Garvnanwani/Garv-s-Space-Personal-Blog" target="_blank"
+            <a href="https://github.com/AminShapso/Application04_TicTic-TacTac-ToeToe" target="_blank"
               rel="noopener noreferrer">
               <button>
                 <span>
@@ -193,65 +196,39 @@
             </a>
           </div>
         </div>
+		
+				<!-- project-1 Popup content -->
+		<div class="popup" id="popup-content">
+		  <div class="popup-content">
+			<span class="close-popup">&times;</span>
+			<h3>Test</h3>
+			<p>This is additional content about the Blogging Site project...</p>
+		  </div>
+		
+</div>
         <div class="project-card">
           <div class="project-img">
-            <img src="./images/projects/project-2.png" loading="lazy" alt="weather-app project">
+            <img src="./images/projects/project-2.png" loading="lazy" alt="Dictionary project">
           </div>
           <div>
-            <h2>Weather PWA App</h2>
-            <div class="title">Tech Used - React, PWA</div>
+            <h2>Tic Tac Toe PC</h2>
+            <div class="title">Code Used - Python Tkinter</div>
           </div>
           <div class="colorband"></div>
-          <div class="desc"> A PWA weather app which you can install on your phones as well as desktop. Functions
-            properly on every platform and loads an offline page when the user is offline.
-          </div>
-          <div class="actions">
-            <a href="https://garv-weather-app.netlify.app/" target="_blank" rel="noopener noreferrer">
-              <button>
-                <span>
-                  <i class="far fa-window-restore"></i>
-                  <span>
-                    Live Site
-                  </span>
-                </span>
-              </button>
-            </a>
-            <a href="https://github.com/Garvnanwani/WeatherApp_PWA" target="_blank" rel="noopener noreferrer">
-              <button>
-                <span>
-                  <i class="fab fa-github"></i>
-                  <span>
-                    Repo Link
-                  </span>
-                </span>
-              </button>
-            </a>
-          </div>
-        </div>
-        <div class="project-card">
-          <div class="project-img">
-            <img src="./images/projects/project-3.jpg" loading="lazy" alt="Dictionary project">
-          </div>
-          <div>
-            <h2>Dictionary App</h2>
-            <div class="title">Tech Used - Html, CSS and JavaScript</div>
-          </div>
-          <div class="colorband"></div>
-          <div class="desc">Dictionary wherein you can find the meaning of any word, gives suggestions and also has
-            feature for audio pronunciation of the word.
+          <div class="desc">This is a pc only game that i took inspiration from to create my last project.
           </div>
           <div class="actions">
             <a href="https://garvdictionary.netlify.app/" target="_blank" rel="noopener noreferrer">
               <button>
                 <span>
-                  <i class="far fa-window-restore"></i>
+                  <i class="fa-solid fa-download"></i>
                   <span>
-                    Live Site
+                    Download
                   </span>
                 </span>
               </button>
             </a>
-            <a href="https://github.com/Garvnanwani/dictionary-app" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AminShapso/Application02_TicTacToe" target="_blank" rel="noopener noreferrer">
               <button>
                 <span>
                   <i class="fab fa-github"></i>
@@ -263,29 +240,38 @@
             </a>
           </div>
         </div>
+		
+		<!-- project-3 Popup content -->
+		<div class="popup" id="popup-content">
+		  <div class="popup-content">
+			<span class="close-popup">&times;</span>
+			<h3>Test</h3>
+			<p>This is additional content about the Blogging Site project...</p>
+		  </div>
+		</div>
+		
         <div class="project-card">
           <div class="project-img">
-            <img src="./images/projects/project-4.png" loading="lazy" alt="Calculator project">
+            <img src="./images/projects/project-3.png" loading="lazy" alt="Calculator project">
           </div>
           <div>
-            <h2>Calculator</h2>
-            <div class="title">Tech Used - Vanilla JavaScript</div>
+            <h2>PC Shutdown</h2>
+            <div class="title">Code Used - Python Tkinter</div>
           </div>
           <div class="colorband"></div>
-          <div class="desc">Calculator made using Html, CSS and JavaScript which can perform all the basic math
-            operations.</div>
+          <div class="desc">A simple program to shutdown your pc at set times within the app.</div>
           <div class="actions">
-            <a href="https://garv-calculator.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AminShapso/Application01_PC_Shutdown/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">
               <button>
                 <span>
-                  <i class="far fa-window-restore"></i>
+                  <i class="fa-solid fa-download"></i>
                   <span>
-                    Live Site
+                    Download
                   </span>
                 </span>
               </button>
             </a>
-            <a href="https://github.com/Garvnanwani/Calculator-with-Javascript" target="_blank"
+            <a href="https://github.com/AminShapso/Application01_PC_Shutdown" target="_blank"
               rel="noopener noreferrer">
               <button>
                 <span>
@@ -298,11 +284,20 @@
             </a>
           </div>
         </div>
+			<!-- project-4 Popup content -->
+		<div class="popup" id="popup-content">
+		  <div class="popup-content">
+			<span class="close-popup">&times;</span>
+			<h3>Test</h3>
+			<p>This is additional content about the Blogging Site project...</p>
+		  </div>
+		</div>
       </div>
+
   </section>
   <!-- end of projects -->
   <!-- timeline -->
-  <section class="section timeline">
+  <section class="section timeline" id="timeline">
     <!-- section title -->
     <div class="section-title">
       <h2 class="section-center">timeline</h2>

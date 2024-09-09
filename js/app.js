@@ -25,3 +25,27 @@ closeBtn.addEventListener('click', function () {
 
 // set year
 date.innerHTML = new Date().getFullYear()
+
+// popup
+document.querySelectorAll('.project-card').forEach(function(card) {
+  card.addEventListener('click', function() {
+    const popup = this.nextElementSibling;
+    popup.style.display = 'block';
+  });
+});
+
+document.querySelectorAll('.close-popup').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    const popup = this.closest('.popup');
+    popup.style.display = 'none';
+  });
+});
+
+window.addEventListener('click', function(event) {
+  document.querySelectorAll('.popup').forEach(function(popup) {
+    if (event.target === popup) {
+      popup.style.display = 'none';
+    }
+  });
+});
+
