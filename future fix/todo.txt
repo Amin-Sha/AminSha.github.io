@@ -1,2 +1,11 @@
 Fix tkinter tic tac toe game repo
 Timeline
+
+#### Moshe ####
+Missing app: Application03_Toggle_HDR
+Bug: pushing a button (like download) in the projects menus open the menu as well.
+The photos in the Project look distorted (see pic 05)
+In the top menu: Timeline should appear AFTER Projects (same order as the website)
+Change the donwload link to the latest release: see → https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases
+
+Very good work ya habibi
