@@ -28,11 +28,16 @@ date.innerHTML = new Date().getFullYear()
 
 // popup
 document.querySelectorAll('.project-card').forEach(function(card) {
-  card.addEventListener('click', function() {
+  card.addEventListener('click', function(event) {
+    // Prevent the popup from opening if a button is clicked
+    if (event.target.tagName.toLowerCase() === 'button' || event.target.closest('button')) {
+      return;
+    }
     const popup = this.nextElementSibling;
     popup.style.display = 'block';
   });
 });
+
 
 document.querySelectorAll('.close-popup').forEach(function(btn) {
   btn.addEventListener('click', function() {

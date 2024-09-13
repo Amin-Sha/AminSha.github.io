@@ -803,8 +803,56 @@ Footer
   }
 }
 
+/*
+===============
+sidebar test
+===============
+*/
 
-/* Popup container */
+.sidebar {
+  padding-bottom: 2rem;
+  background: var(--clr-primary);
+  display: grid;
+  place-items: center;
+  color: var(--clr-white);
+}
+
+.sidebar .social-icons {
+  margin-bottom: 2rem;
+}
+
+.sidebar .social-icon {
+  color: var(--clr-white);
+}
+
+.sidebar .social-icon:hover {
+  color: var(--clr-secondary);
+}
+
+.sidebar p {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: var(--clr-white);
+}
+
+@media (min-width: 940px) {
+  .sidebar p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .sidebar p {
+    font-size: 0.8rem;
+  }
+}
+
+
+/*
+===============
+	Popup Container
+===============
+*/
 
 
 .popup {
