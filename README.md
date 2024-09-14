@@ -1,1 +1,1 @@
-My Personal Portfolio built completely using Html, CSS and a little bit of Javascript.
+My Personal Portfolio built using HTML, CSS and a little bit of JavaScript.

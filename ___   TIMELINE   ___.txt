@@ -1,0 +1,101 @@
+######  Lessons 01 (2023)  ######
+
+
+Lesson 01 - Waves.py
+Synopsis: Plotting sine and cosine waves using matplotlib and numpy.
+Key takeaway: With np.arange() you can use floats (instead of only ints).
+
+Lesson 02 - Functions.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 03 - Types.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 04 - Read data from CSV.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 05 - Read text.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 06 - print.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 07 - Sums.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 08 - Loops.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 09 - Classes and Inheritance.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 10 - Data using Pandas.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 11 - Overload Methods.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 12 - My Family.py
+Synopsis: 
+Key takeaway: 
+
+
+
+######  Lessons 02 (2024)  ######
+
+
+Lesson 01 - Logics.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 02 - Dictionaries.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 03 - Dictionaries and Lambdas.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 04 - SolarEdge FC.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 05 - braking loops.py
+Synopsis: 
+Key takeaway: 
+
+Lesson 06 - Precedence of Operators.py
+Synopsis: 
+Key takeaway: 
+
+
+
+######  Lessons 03 - App with KivyMD  ######
+
+
+Lessons 03 - App with KivyMD\Lesson 01 - Useful Examples.py
+Synopsis: 
+Key takeaway: 
+
+Lessons 03 - App with KivyMD\Lesson 02 - Calculator.py
+Synopsis: 
+Key takeaway: 
+
+
+
+######  Tests  ######
+
+
+Test 01 (22-01-2024).py
+Synopsis: 
+Key takeaway: 
