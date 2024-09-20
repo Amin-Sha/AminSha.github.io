@@ -7,7 +7,7 @@
   --ff-primary: 'Roboto', sans-serif;
   --ff-secondary: 'Open Sans', sans-serif;
   --transition: all 0.3s linear;
-  --spacing: 0.25rem;
+  --spacing: 0.05rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -497,12 +497,6 @@ Sidebar
   }
 }
 
-@media screen and (max-width: 992px) {
-  .about-img {
-    display: none;
-  }
-}
-
 .section-primary {
   color: var(--clr-white) !important;
 }
@@ -850,7 +844,7 @@ sidebar test
 
 /*
 ===============
-	Popup Container
+	Popup Content
 ===============
 */
 
@@ -887,4 +881,21 @@ sidebar test
   transform: translateY(-50%);
   max-width: 600px; /* Optional: Adjust the max width if needed */
   border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+.popup-content h4 {    /* Only for h4 in the popup content */
+	letter-spacing: 0.05rem;
+}
+
+#gif { /* Only for the TicTacToe Android gif */
+	height: 430px;
+	max-width: 60%;
+}
+
+@media (max-width: 700px) { /* @media (max-width:700px) - Only for screens that their width is under 700px (Mobile) */
+	.popup-content img {
+		max-width: 70%;
+		min-width: auto;
+		height: auto;
+	}
 }
