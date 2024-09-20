@@ -1,5 +1,2 @@
 Bugs:
- - Toggle HDR is always in new line
- - Sidebar move to the left
- - No image in About in Android mode
  - Use ESC key to close the popup menu

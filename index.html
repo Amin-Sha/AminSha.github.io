@@ -1,478 +1,453 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171127653-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-171127653-2');
-  </script>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Primary Meta Tags -->
-  <title>Amin Shapso</title>
-  <meta name="title" content="Amin Shapso">
-  <meta name="description" content="Chatu">
-
-  <!-- css -->
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-    crossorigin="anonymous" />
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="shortcut icon" href="./images/personal/GNlogo.png" type="icon">
-</head>
-
-<body>
-  <!-- navbar -->
-  <nav class="nav" id="id" id="home">
-    <div class="nav-center">
-      <!-- logo -->
-
-      <div class="nav-header">
-        <button class="nav-btn" id="nav-btn">
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-
-      <!-- logo -->
-
-      <!-- nav-links -->
-      <div>
-        <ul class="nav-links">
-          <li>
-            <a href="#index">home</a>
-          </li>
-          <li>
-            <a href="#about">about</a>
-          </li>
-          <li>
-            <a href="#projects">projects</a>
-          </li>
-		  <li>
-            <a href="#timeline">timeline</a>
-          </li>
-        </ul>
-      </div>
-      <!-- nav-links -->
-    </div>
-  </nav>
-  <!-- navbar -->
-  <!-- sidebar -->
-  <aside class="sidebar" id="sidebar">
-    <div>
-      <button class="close-btn" id="close-btn">
-        <i class="fas fa-times"></i>
-      </button>
-
-      <!-- nav-links -->
-
-      <ul class="sidebar-links">
-        <li>
-          <a href="#index" onclick="getElementById('close-btn').click()">home</a>
-        </li>
-        <li>
-          <a href="#about" onclick="getElementById('close-btn').click()">about</a>
-        </li>
-        <li>
-          <a href="#projects" onclick="getElementById('close-btn').click()">projects</a>
-        </li>
-		<li>
-          <a href="#timeline" onclick="getElementById('close-btn').click()">timeline</a>
-        </li>
-      </ul>
-
-      <!-- social links -->
-    <p>Amin Shapso &copy; &nbsp; &nbsp;
-        <a href="https://github.com/AminShapso" target="_blank" rel="noopener noreferrer" class="social-icon">
-          <i class="fab fa-github"></i>
-        </a>
-    </p>
-
-      <!-- social-links -->
-    </div>
-  </aside>
-  <!-- sidebar -->
-  
-  <!-- header -->
-  <header class="hero">
-    <div class="section-center hero-center">
-      <article class="hero-info">
-        <div class="underline"></div>
-        <h1>i'm Amin</h1>
-        <h4>Python developer</h4>
-      </article>
-      <article class="hero-img">
-        <img src="./images/personal/mypic.jpeg" class="hero-photo" loading="lazy" alt="blackcat2.png" />
-      </article>
-    </div>
-  </header>
-  <!-- end of header -->
-  
-  <!-- about -->
-  <section class="section about" id="about">
-    <div class="section-center about-center">
-      <!-- about img -->
-      <article class="about-img">
-        <img src="./images/personal/mypic2.jpeg" class="hero-photo" loading="lazy" alt="blackcat.png" />
-      </article>
-      <!-- about info -->
-      <article class="about-info">
-        <!-- section title -->
-        <div class="section-title about-title">
-          <h2>About Me</h2>
-          <div class="underline"></div>
-        </div>
-        <!--end of section title -->
-        <p>
-          Hey, my name is Amin and I am currently learning in high school.
-        </p>
-        <p>
-          My fields of interest are programming and electronics.
-        </p>
-        <p>
-          I have been coding for around a year now.
-        </p>
-      </article>
-    </div>
-  </section>
-  <!-- end of about -->
-  
-  <!-- projects -->
-  <section class="section" id="projects">
-  
-    <!-- section title -->
-    <div class="section-title">
-      <h2 class="section-primary">Projects</h2>
-      <div class="underline"></div>
-    </div>
-    <!--end of section title -->
-	
-    <div class="section-center">
-      <div class="card-list">
-        <div class="project-card" style="cursor: pointer;">
-          <div class="project-img">
-            <img src="./images/projects/project-1.png" loading="lazy" alt="TicTacToe (Android)">
-          </div>
-          <div>
-            <h2>TicTacToe (Android)</h2>
-            <div class="title">Code Used - Python Kivy</div>
-          </div>
-          <div class="colorband"></div>
-          <div class="desc">A TicTacToe game that has multiple changable factors like height and width of the grid, number of players and even against a "Ghost" player!</div>
-          <div class="actions">
-            <a href="https://github.com/AminShapso/Application04_TicTic-TacTac-ToeToe/releases/latest/download/TicTacToe-1.0-arm64-v8a_armeabi-v7a-debug.apk" target="_blank" rel="noopener noreferrer">
-              <button>
-                <span>
-                  <i class="fa-solid fa-download"></i>
-                  <span>
-                    Download
-                  </span>
-                </span>
-              </button>
-            </a>
-            <a href="https://github.com/AminShapso/Application04_TicTic-TacTac-ToeToe" target="_blank"
-              rel="noopener noreferrer">
-              <button>
-                <span>
-                  <i class="fab fa-github"></i>
-                  <span>
-                    Repo Link
-                  </span>
-                </span>
-              </button>
-            </a>
-          </div>
-        </div>
-		
-				<!-- project-1 Popup content -->
-		<div class="popup" id="popup-content">
-		  <div class="popup-content">
-			<span class="close-popup">&times;</span>
-			<h3>TicTacToe Android</h3>
-			<p>A TicTacToe game that has multiple changeable factors like height and width of the grid, number of players and even against a "Ghost" player!</p>
-			<h4>Demo</h4>
-			<img src="https://github.com/AminShapso/Application04_TicTic-TacTac-ToeToe/raw/main/assets%20git/demo.gif" alt="Application04_TicTic-TacTac-ToeToe" id="gif"><br/><br/>
-			<h4>Requirements</h4>
-			<l>
-				<li>charset-normalizer</li>
-				<li>Cython</li>
-				<li>docutils</li>
-				<li>idna</li>
-				<li>Kivy</li>
-				<li>Pygments</li>
-				<li>pyjnius</li>
-				<li>pypiwin32</li>
-				<li>pywin32</li>
-				<li>requests</li>
-				<li>urllib3</li>
-				<li>certifi</li>
-			</l>
-		  </div>
-		
-</div>
-<!--project-2-->
-        <div class="project-card" style="cursor: pointer;">
-          <div class="project-img">
-            <img src="./images/projects/project-2.png" loading="lazy" alt="TicTacToe (PC)">
-          </div>
-          <div>
-            <h2>TicTacToe (PC)</h2>
-            <div class="title">Code Used - Python Tkinter</div>
-          </div>
-          <div class="colorband"></div>
-          <div class="desc">TicTacToe game for PC developed in Tkinter</div>
-          <div class="actions">
-            <a href="https://garvdictionary.netlify.app/" target="_blank" rel="noopener noreferrer">
-              <button>
-                <span>
-                  <i class="fa-solid fa-download"></i>
-                  <span>
-                    Download
-                  </span>
-                </span>
-              </button>
-            </a>
-            <a href="https://github.com/AminShapso/Application02_TicTacToe" target="_blank" rel="noopener noreferrer">
-              <button>
-                <span>
-                  <i class="fab fa-github"></i>
-                  <span>
-                    Repo Link
-                  </span>
-                </span>
-              </button>
-            </a>
-          </div>
-        </div>
-		
-		<!-- project-2 Popup content -->
-		<div class="popup" id="popup-content">
-		  <div class="popup-content">
-			<span class="close-popup">&times;</span>
-			<h3>TicTacToe PC</h3>
-			<p>
-				TicTacToe game for PC developed in Tkinter.<br/>
-				This project was abandoned to be developed in Kivy for Android support.<br/><br/>
-				Features:
-				<l>
-					<li>The game supports 2 to 5 players.</li>
-					<li>The grid is scalable up to 10 by 10 grid, which can be also non-symmetric.</li>
-					<li>The number of symbols in sequence for a win can be also adjusted (or turned off if set higher than the grid).</li>
-				</l>
-			</p><br/>
-			<h4>Screenshot</h4>
-			<img src="https://github.com/AminShapso/Application02_TicTacToe/raw/main/icon.png" alt="Application02_TicTacToe"><br/><br/>
-			<h4>Requirements</h4>
-			<l>
-				<li>Tkinter</li>
-				<li>numpy</li>
-				<li>random</li>
-			</l>
-		  </div>
-		</div>
-		
-        <div class="project-card" style="cursor: pointer;">
-          <div class="project-img">
-            <img src="./images/projects/project-3.png" loading="lazy" alt="PC Shutdown project">
-          </div>
-          <div>
-            <h2>PC Shutdown</h2>
-            <div class="title">Code Used - Python Tkinter</div>
-          </div>
-          <div class="colorband"></div>
-          <div class="desc">A simple PC shutdown timer</div>
-          <div class="actions">
-            <a href="https://github.com/AminShapso/Application01_PC_Shutdown/releases/latest/download/Application01_PC_Shutdown.rar" target="_blank" rel="noopener noreferrer">
-              <button>
-                <span>
-                  <i class="fa-solid fa-download"></i>
-                  <span>
-                    Download
-                  </span>
-                </span>
-              </button>
-            </a>
-            <a href="https://github.com/AminShapso/Application01_PC_Shutdown" target="_blank"
-              rel="noopener noreferrer">
-              <button>
-                <span>
-                  <i class="fab fa-github"></i>
-                  <span>
-                    Repo Link
-                  </span>
-                </span>
-              </button>
-            </a>
-          </div>
-        </div>
-			<!-- project-3 Popup content -->
-		<div class="popup" id="popup-content">
-		  <div class="popup-content">
-			<span class="close-popup">&times;</span>
-			<h3>PC Shutdown</h3>
-			<p>
-				A simple GUI in Tkinter for setting a PC shutdown timer.<br/>
-				You can manually enter the number of minutes for the timer, or select one form the drop-down menu.<br/>
-				For the drop-down menu to be selected, leave the text field empty.<br/>
-				The shutdown is set using the Command Prompt.
-			</p><br/>
-			<h4>Screenshot</h4>
-			<img src="https://github.com/AminShapso/Application01_PC_Shutdown/raw/main/screenshot.png" alt="Application01_PC_Shutdown"><br/><br/>
-			<h4>Requirements</h4>
-			<l>
-				<li>Tkinter</li>
-			</l>
-		  </div>
-		</div>
-      </div>
-	  
-	    <!--project-4--!>
-	      <div class="section-center">
-      <div class="card-list">
-        <div class="project-card" style="cursor: pointer;">
-          <div class="project-img">
-            <img src="./images/projects/project-4.png" loading="lazy" alt="Toggle HDR">
-          </div>
-          <div>
-            <h2>Toggle HDR</h2>
-            <div class="title">Code Used - Python</div>
-          </div>
-          <div class="colorband"></div>
-          <div class="desc">A simple toggle for HDR</div>
-          <div class="actions">
-            <a href="https://github.com/AminShapso/Application03_Toggle_HDR/releases/latest/download/Application03_Toggle_HDR.rar" target="_blank" rel="noopener noreferrer">
-              <button>
-                <span>
-                  <i class="fa-solid fa-download"></i>
-                  <span>
-                    Download
-                  </span>
-                </span>
-              </button>
-            </a>
-            <a href="https://github.com/AminShapso/Application03_Toggle_HDR" target="_blank"
-              rel="noopener noreferrer">
-              <button>
-                <span>
-                  <i class="fab fa-github"></i>
-                  <span>
-                    Repo Link
-                  </span>
-                </span>
-              </button>
-            </a>
-          </div>
-        </div>
-		
-				<!-- project-4 Popup content -->
-		<div class="popup" id="popup-content">
-		  <div class="popup-content">
-			<span class="close-popup">&times;</span>
-			<h3>Toggle HDR</h3>
-			<p>
-				A really simple Python tool to toggle between HDR and SDR using keyboard shortcuts.<br/>
-				Only on supported monitors.
-			</p>
-		  </div>
-		
-</div>
-
-  </section>
-  <!-- end of projects -->
-  <!-- timeline -->
-  <section class="section timeline" id="timeline">
-    <!-- section title -->
-    <div class="section-title">
-      <h2 class="section-center">Timeline</h2>
-      <div class="underline"></div>
-    </div>
-    <!--end of section title -->
-    <div class="section-center timeline-center">
-      <!-- single timeline item -->
-      <article class="timeline-item">
-        <h4>Sep 5, 2024</h4>
-        <p>
-          Started working on this website.
-        </p>
-        <span class="number"> 6 </span>
-      </article>
-      <!-- end of  single timeline item -->
-      <!-- single timeline item -->
-      <article class="timeline-item">
-        <h4>Aug 29, 2024</h4>
-        <p>
-          Uploaded the first version of TicTacToe Android game.
-        </p>
-        <span class="number"> 5 </span>
-      </article>
-      <!-- end of  single timeline item -->
-      <!-- single timeline item -->
-      <article class="timeline-item">
-        <h4> Jun 15, 2024</h4>
-        <p>
-          Started working on my TicTacToe Android game.
-        </p>
-        <span class="number"> 4 </span>
-      </article>
-      <!-- end of  single timeline item -->
-      <!-- single timeline item -->
-      <article class="timeline-item">
-        <h4> Feb 23, 2024</h4>
-        <p>
-          Started learning KivyMD and learned how to build Android packages (.apk) from .py files using Buildozer.
-        </p>
-        <span class="number"> 3 </span>
-      </article>
-      <!-- end of  single timeline item -->
-      <!-- single timeline item -->
-      <article class="timeline-item">
-        <h4>January 23, 2024</h4>
-        <p>
-          Made my GitHub account for organizing my projects.
-        </p>
-        <span class="number"> 2 </span>
-      </article>
-      <!-- end of  single timeline item -->
-      <!-- single timeline item -->
-      <article class="timeline-item">
-        <h4>October 22, 2023</h4>
-        <p>
-          Started learning Python using Pycharm.<br/>
-		  These are all of my lessons:<br/>
-		  <a href="https://github.com/AminShapso/MyLessons" target="_blank" rel="noopener noreferrer">
-		  https://github.com/AminShapso/MyLessons
-		  </a>
-        </p>
-        <span class="number"> 1 </span>
-      </article>
-      <!-- end of  single timeline item -->
-    </div>
-  </section>
-  <!--end of  timeline -->
-  <!-- footer -->
-  <footer class="footer" id="connect">
-    <br>
-      <p>Amin Shapso <span id="date"></span> &copy; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          <a href="https://github.com/AminShapso" target="_blank" rel="noopener noreferrer" class="social-icon">
+   <head>
+      <!-- Google Tag Manager -->
+      <script>
+	     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	     })(window,document,'script','dataLayer','GTM-KMJCC6LP');
+      </script>
+   <!-- End Google Tag Manager -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- Primary Meta Tags -->
+      <title>Amin Shapso</title>
+      <meta name="title" content="Amin Shapso">
+      <meta name="description" content="Chatu">
+      <!-- css -->
+      <!-- fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap"
+         rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+         crossorigin="anonymous" />
+      <link rel="stylesheet" href="./css/style.css" />
+      <link rel="shortcut icon" href="./images/personal/GNlogo.png" type="icon">
+   </head>
+   <body>
+      <!-- Google Tag Manager (noscript) -->
+         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMJCC6LP"
+	     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	  <!-- End Google Tag Manager (noscript) -->
+      <!-- navbar -->
+      <nav class="nav" id="home">
+         <div class="nav-center">
+            <!-- logo -->
+            <div class="nav-header">
+               <button class="nav-btn" id="nav-btn">
+               <i class="fas fa-bars"></i>
+               </button>
+            </div>
+            <!-- logo -->
+            <!-- nav-links -->
+            <div>
+               <ul class="nav-links">
+                  <li>
+                     <a href="#index">home</a>
+                  </li>
+                  <li>
+                     <a href="#about">about</a>
+                  </li>
+                  <li>
+                     <a href="#projects">projects</a>
+                  </li>
+                  <li>
+                     <a href="#timeline">timeline</a>
+                  </li>
+               </ul>
+            </div>
+            <!-- nav-links -->
+         </div>
+      </nav>
+      <!-- navbar -->
+      <!-- sidebar -->
+      <aside class="sidebar" id="sidebar">
+         <div>
+            <button class="close-btn" id="close-btn">
+            <i class="fas fa-times"></i>
+            </button>
+            <!-- nav-links -->
+            <ul class="sidebar-links">
+               <li>
+                  <a href="#index" onclick="getElementById('close-btn').click()">home</a>
+               </li>
+               <li>
+                  <a href="#about" onclick="getElementById('close-btn').click()">about</a>
+               </li>
+               <li>
+                  <a href="#projects" onclick="getElementById('close-btn').click()">projects</a>
+               </li>
+               <li>
+                  <a href="#timeline" onclick="getElementById('close-btn').click()">timeline</a>
+               </li>
+            </ul>
+            <!-- social links -->
+            <p>Amin Shapso &copy; &nbsp; &nbsp;
+               <a href="https://github.com/AminShapso" target="_blank" rel="noopener noreferrer" class="social-icon">
+               <i class="fab fa-github"></i>
+               </a>
+            </p>
+            <!-- social-links -->
+         </div>
+      </aside>
+      <!-- sidebar -->
+      <!-- header -->
+      <header class="hero">
+         <div class="section-center hero-center">
+            <article class="hero-info">
+               <div class="underline"></div>
+               <h1>i'm Amin</h1>
+               <h4>Python developer</h4>
+            </article>
+            <article class="hero-img">
+               <img src="./images/personal/mypic.jpeg" class="hero-photo" loading="lazy" alt="blackcat2.png" />
+            </article>
+         </div>
+      </header>
+      <!-- end of header -->
+      <!-- about -->
+      <section class="section about" id="about">
+         <div class="section-center about-center">
+            <!-- about img -->
+            <article class="about-img">
+               <img src="./images/personal/mypic2.jpeg" class="hero-photo" loading="lazy" alt="blackcat.png" />
+            </article>
+            <!-- about info -->
+            <article class="about-info">
+               <!-- section title -->
+               <div class="section-title about-title">
+                  <h2>About Me</h2>
+                  <div class="underline"></div>
+               </div>
+               <!--end of section title -->
+               <p>
+                  Hey, my name is Amin and I am currently learning in high school.
+               </p>
+               <p>
+                  My fields of interest are programming and electronics.
+               </p>
+               <p>
+                  I have been coding for around a year now.
+               </p>
+            </article>
+         </div>
+      </section>
+      <!-- end of about -->
+      <!-- projects -->
+      <section class="section" id="projects">
+         <!-- section title -->
+         <div class="section-title">
+            <h2 class="section-primary">Projects</h2>
+            <div class="underline"></div>
+         </div>
+         <!--end of section title -->
+         <div class="section-center">
+         <div class="card-list">
+         <!-- project-1 TicTacToe (Android) -->
+         <div class="project-card" style="cursor: pointer;">
+            <div class="project-img">
+               <img src="./images/projects/project-1.png" loading="lazy" alt="TicTacToe (Android)">
+            </div>
+            <div>
+               <h2>TicTacToe (Android)</h2>
+               <div class="title">Code Used - Python Kivy</div>
+            </div>
+            <div class="colorband"></div>
+            <div class="desc">A TicTacToe game that has multiple changable factors like height and width of the grid, number of players and even against a "Ghost" player!</div>
+            <div class="actions">
+               <a href="https://github.com/AminShapso/Application04_TicTic-TacTac-ToeToe/releases/latest/download/TicTacToe-1.0-arm64-v8a_armeabi-v7a-debug.apk" target="_blank" rel="noopener noreferrer">
+               <button>
+               <span>
+               <i class="fa-solid fa-download"></i>
+               <span>
+               Download
+               </span>
+               </span>
+               </button>
+               </a>
+               <a href="https://github.com/AminShapso/Application04_TicTic-TacTac-ToeToe" target="_blank"
+                  rel="noopener noreferrer">
+               <button>
+               <span>
+               <i class="fab fa-github"></i>
+               <span>
+               Repo Link
+               </span>
+               </span>
+               </button>
+               </a>
+            </div>
+         </div>
+         <!-- project-1 Popup content -->
+         <div class="popup" id="popup-content-1">
+            <div class="popup-content">
+               <span class="close-popup">&times;</span>
+               <h3>TicTacToe Android</h3>
+               <p>A TicTacToe game that has multiple changeable factors like height and width of the grid, number of players and even against a "Ghost" player!</p>
+               <h4>Demo</h4>
+               <img src="https://github.com/AminShapso/Application04_TicTic-TacTac-ToeToe/raw/main/assets%20git/demo.gif" alt="Application04_TicTic-TacTac-ToeToe" id="gif"><br/><br/>
+               <h4>Requirements</h4>
+               <l>
+                  <li>charset-normalizer</li>
+                  <li>Cython</li>
+                  <li>docutils</li>
+                  <li>idna</li>
+                  <li>Kivy</li>
+                  <li>Pygments</li>
+                  <li>pyjnius</li>
+                  <li>pypiwin32</li>
+                  <li>pywin32</li>
+                  <li>requests</li>
+                  <li>urllib3</li>
+                  <li>certifi</li>
+               </l>
+            </div>
+         </div>
+         <!--project-2 TicTacToe (PC) -->
+         <div class="project-card" style="cursor: pointer;">
+            <div class="project-img">
+               <img src="./images/projects/project-2.png" loading="lazy" alt="TicTacToe (PC)">
+            </div>
+            <div>
+               <h2>TicTacToe (PC)</h2>
+               <div class="title">Code Used - Python Tkinter</div>
+            </div>
+            <div class="colorband"></div>
+            <div class="desc">TicTacToe game for PC developed in Tkinter</div>
+            <div class="actions">
+               <a href="https://garvdictionary.netlify.app/" target="_blank" rel="noopener noreferrer">
+               <button>
+               <span>
+               <i class="fa-solid fa-download"></i>
+               <span>
+               Download
+               </span>
+               </span>
+               </button>
+               </a>
+               <a href="https://github.com/AminShapso/Application02_TicTacToe" target="_blank" rel="noopener noreferrer">
+               <button>
+               <span>
+               <i class="fab fa-github"></i>
+               <span>
+               Repo Link
+               </span>
+               </span>
+               </button>
+               </a>
+            </div>
+         </div>
+         <!-- project-2 Popup content -->
+         <div class="popup" id="popup-content-2">
+            <div class="popup-content">
+               <span class="close-popup">&times;</span>
+               <h3>TicTacToe PC</h3>
+               <p>
+                  TicTacToe game for PC developed in Tkinter.<br/>
+                  This project was abandoned to be developed in Kivy for Android support.<br/><br/>
+                  Features:
+                  <l>
+               <li>The game supports 2 to 5 players.</li>
+               <li>The grid is scalable up to 10 by 10 grid, which can be also non-symmetric.</li>
+               <li>The number of symbols in sequence for a win can be also adjusted (or turned off if set higher than the grid).</li>
+               </l>
+               </p><br/>
+               <h4>Screenshot</h4>
+               <img src="https://github.com/AminShapso/Application02_TicTacToe/raw/main/icon.png" alt="Application02_TicTacToe"><br/><br/>
+               <h4>Requirements</h4>
+               <l>
+                  <li>Tkinter</li>
+                  <li>numpy</li>
+                  <li>random</li>
+               </l>
+            </div>
+         </div>
+         <!--project-3 PC Shutdown -->
+         <div class="project-card" style="cursor: pointer;">
+            <div class="project-img">
+               <img src="./images/projects/project-3.png" loading="lazy" alt="PC Shutdown project">
+            </div>
+            <div>
+               <h2>PC Shutdown</h2>
+               <div class="title">Code Used - Python Tkinter</div>
+            </div>
+            <div class="colorband"></div>
+            <div class="desc">A simple PC shutdown timer</div>
+            <div class="actions">
+               <a href="https://github.com/AminShapso/Application01_PC_Shutdown/releases/latest/download/Application01_PC_Shutdown.rar" target="_blank" rel="noopener noreferrer">
+               <button>
+               <span>
+               <i class="fa-solid fa-download"></i>
+               <span>
+               Download
+               </span>
+               </span>
+               </button>
+               </a>
+               <a href="https://github.com/AminShapso/Application01_PC_Shutdown" target="_blank"
+                  rel="noopener noreferrer">
+               <button>
+               <span>
+               <i class="fab fa-github"></i>
+               <span>
+               Repo Link
+               </span>
+               </span>
+               </button>
+               </a>
+            </div>
+         </div>
+         <!-- project-3 Popup content -->
+         <div class="popup" id="popup-content-3">
+            <div class="popup-content">
+               <span class="close-popup">&times;</span>
+               <h3>PC Shutdown</h3>
+               <p>
+                  A simple GUI in Tkinter for setting a PC shutdown timer.<br/>
+                  You can manually enter the number of minutes for the timer, or select one form the drop-down menu.<br/>
+                  For the drop-down menu to be selected, leave the text field empty.<br/>
+                  The shutdown is set using the Command Prompt.
+               </p>
+               <br/>
+               <h4>Screenshot</h4>
+               <img src="https://github.com/AminShapso/Application01_PC_Shutdown/raw/main/screenshot.png" alt="Application01_PC_Shutdown"><br/><br/>
+               <h4>Requirements</h4>
+               <l>
+                  <li>Tkinter</li>
+               </l>
+            </div>
+         </div>
+         <!--project-4 Toggle HDR -->
+         <div class="project-card" style="cursor: pointer;">
+            <div class="project-img">
+               <img src="./images/projects/project-4.png" loading="lazy" alt="Toggle HDR">
+            </div>
+            <div>
+               <h2>Toggle HDR</h2>
+               <div class="title">Code Used - Python</div>
+            </div>
+            <div class="colorband"></div>
+            <div class="desc">A simple toggle for HDR</div>
+            <div class="actions">
+               <a href="https://github.com/AminShapso/Application03_Toggle_HDR/releases/latest/download/Application03_Toggle_HDR.rar" target="_blank" rel="noopener noreferrer">
+               <button>
+               <span>
+               <i class="fa-solid fa-download"></i>
+               <span>
+               Download
+               </span>
+               </span>
+               </button>
+               </a>
+               <a href="https://github.com/AminShapso/Application03_Toggle_HDR" target="_blank"
+                  rel="noopener noreferrer">
+               <button>
+               <span>
+               <i class="fab fa-github"></i>
+               <span>
+               Repo Link
+               </span>
+               </span>
+               </button>
+               </a>
+            </div>
+         </div>
+         <!-- project-4 Popup content -->
+         <div class="popup" id="popup-content-4">
+            <div class="popup-content">
+               <span class="close-popup">&times;</span>
+               <h3>Toggle HDR</h3>
+               <p>
+                  A really simple Python tool to toggle between HDR and SDR using keyboard shortcuts.<br/>
+                  Only on supported monitors.
+               </p>
+            </div>
+         </div>
+      </section>
+      <!-- end of projects -->
+      <!-- timeline -->
+      <section class="section timeline" id="timeline">
+         <!-- section title -->
+         <div class="section-title">
+            <h2 class="section-center">Timeline</h2>
+            <div class="underline"></div>
+         </div>
+         <!--end of section title -->
+         <div class="section-center timeline-center">
+            <!-- single timeline item -->
+            <article class="timeline-item">
+               <h4>Sep 5, 2024</h4>
+               <p>
+                  Started working on this website.
+               </p>
+               <span class="number"> 6 </span>
+            </article>
+            <!-- end of  single timeline item -->
+            <!-- single timeline item -->
+            <article class="timeline-item">
+               <h4>Aug 29, 2024</h4>
+               <p>
+                  Uploaded the first version of TicTacToe Android game.
+               </p>
+               <span class="number"> 5 </span>
+            </article>
+            <!-- end of  single timeline item -->
+            <!-- single timeline item -->
+            <article class="timeline-item">
+               <h4> Jun 15, 2024</h4>
+               <p>
+                  Started working on my TicTacToe Android game.
+               </p>
+               <span class="number"> 4 </span>
+            </article>
+            <!-- end of  single timeline item -->
+            <!-- single timeline item -->
+            <article class="timeline-item">
+               <h4> Feb 23, 2024</h4>
+               <p>
+                  Started learning KivyMD and learned how to build Android packages (.apk) from .py files using Buildozer.
+               </p>
+               <span class="number"> 3 </span>
+            </article>
+            <!-- end of  single timeline item -->
+            <!-- single timeline item -->
+            <article class="timeline-item">
+               <h4>January 23, 2024</h4>
+               <p>
+                  Made my GitHub account for organizing my projects.
+               </p>
+               <span class="number"> 2 </span>
+            </article>
+            <!-- end of  single timeline item -->
+            <!-- single timeline item -->
+            <article class="timeline-item">
+               <h4>October 22, 2023</h4>
+               <p>
+                  Started learning Python using Pycharm.<br/>
+                  These are all of my lessons:<br/>
+                  <a href="https://github.com/AminShapso/MyLessons" target="_blank" rel="noopener noreferrer">
+                  https://github.com/AminShapso/MyLessons
+                  </a>
+               </p>
+               <span class="number"> 1 </span>
+            </article>
+            <!-- end of  single timeline item -->
+         </div>
+      </section>
+      <!--end of  timeline -->
+      <!-- footer -->
+      <footer class="footer" id="connect">
+         <br>
+         <p>Amin Shapso <span id="date"></span> &copy; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="https://github.com/AminShapso" target="_blank" rel="noopener noreferrer" class="social-icon">
             <i class="fab fa-github"></i>
-          </a>
-      </p>
-    </br>
-  </footer>
-
-  <script async src="./js/app.js"></script>
-</body>
-
+            </a>
+         </p>
+         </br>
+      </footer>
+      <script async src="./js/app.js"></script>
+   </body>
 </html>

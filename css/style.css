@@ -224,10 +224,10 @@ p {
   font-size: 2rem;
   cursor: pointer;
   justify-self: end;
-  position: fixed;
-  top: 10px;
-  right: 20px;
-  z-index: 1;
+  position: absolute; /* default = fixed */
+  left: 20px; /* Adjust this value to move it more or less to the left */
+  top: 20px; /* Adjust the vertical positioning as needed */
+  z-index: 1; /* 9999 to Ensure it stays on top of other elements */
 }
 
 @media screen and (min-width: 768px) {
@@ -892,10 +892,17 @@ sidebar test
 	max-width: 60%;
 }
 
+.popup-content img {
+    width: 50%; /* Adjust percentage as needed */
+    height: auto; /* Ensures the aspect ratio is maintained */
+    max-width: 300px; /* Optional: sets a maximum width */
+}
+
+
 @media (max-width: 700px) { /* @media (max-width:700px) - Only for screens that their width is under 700px (Mobile) */
 	.popup-content img {
-		max-width: 70%;
-		min-width: auto;
-		height: auto;
+    width: 50%; /* Adjust percentage as needed */
+    height: auto; /* Ensures the aspect ratio is maintained */
+    max-width: 300px; /* Optional: sets a maximum width */
 	}
 }
