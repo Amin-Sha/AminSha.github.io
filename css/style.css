@@ -861,6 +861,12 @@ sidebar test
   background-color: rgba(0, 0, 0, 0.4);
   justify-content: center;
   align-items: center;
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width/height */
+}
+
+.close-popup {
+  font-size: 2.5rem;
 }
 
 .popup-content h3 {
@@ -877,10 +883,14 @@ sidebar test
   position: relative;
   z-index: 1001;
   color: #333;
-  top: 50%;
-  transform: translateY(-50%);
-  max-width: 600px; /* Optional: Adjust the max width if needed */
+  top: 0%;
+  max-width: 1200px; /* Optional: Adjust the max width if needed */
+  min-width: 200px; /* Optional: Adjust the max width if needed */
   border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+#project4-content {
+	top: 35%;
 }
 
 .popup-content h4 {    /* Only for h4 in the popup content */
