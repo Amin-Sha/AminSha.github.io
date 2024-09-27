@@ -1,2 +1,0 @@
-Bugs:
- - Use ESC key to close the popup menu

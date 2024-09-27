@@ -54,3 +54,10 @@ window.addEventListener('click', function(event) {
   });
 });
 
+window.addEventListener('keydown', function(e) {
+	document.querySelectorAll('.popup').forEach(function(popup) {
+	if (e.key == "Escape") {
+		popup.style.display = 'none';
+	}
+  });
+});
