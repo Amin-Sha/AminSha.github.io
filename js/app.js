@@ -56,7 +56,7 @@ window.addEventListener('click', function(event) {
 
 window.addEventListener('keydown', function(e) {
 	document.querySelectorAll('.popup').forEach(function(popup) {
-	if (e.key == "Escape") {
+	if (e.key == "Escape" || e.keyCode == 27) {
 		popup.style.display = 'none';
 	}
   });
