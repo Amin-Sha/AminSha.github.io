@@ -275,7 +275,7 @@ p {
 }
 
 @media screen and (max-width: 360px) {
-  .hero-info h4 {
+  .home-info h4 {
     font-size: 0.9rem;
   }
 
@@ -373,54 +373,54 @@ Sidebar
 
 /* Navbar */
 
-/* Hero */
+/* home */
 /* underline added to globals */
-.hero .underline {
+.home .underline {
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
 
-.hero {
+.home {
   background: var(--clr-primary);
 }
 
-.hero-center {
+.home-center {
   min-height: calc(100vh - 5rem);
   display: grid;
   place-items: center;
 }
 
-.hero-info h4 {
+.home-info h4 {
   color: var(--clr-secondary);
 }
 
-.hero-icons {
+.home-icons {
   justify-items: start;
 }
 
-.hero-btn {
+.home-btn {
   margin-top: 1.25rem;
 }
 
-.hero-img {
+.home-img {
   margin: 2rem 0;
 }
 
 @media screen and (min-width: 992px) {
-  .hero-img {
+  .home-img {
     display: block;
     position: relative;
   }
 
-  .hero {
+  .home {
     height: 90vh;
   }
 
-  .hero-center {
+  .home-center {
     grid-template-columns: 1fr 1fr;
   }
 
-  .hero-img::before,
+  .home-img::before,
   .about-img::before {
     content: '';
     position: absolute;
@@ -437,7 +437,7 @@ Sidebar
   }
 }
 
-.hero-photo {
+.home-photo {
   max-width: 25rem;
   max-height: 25rem;
   -o-object-fit: cover;
