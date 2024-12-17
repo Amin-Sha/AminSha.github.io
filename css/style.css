@@ -604,8 +604,13 @@ Sidebar
   transform: scale(1.03);
 }
 
+.actions {
+  display: flex;
+  justify-content: space-between; /* Optional, to add spacing between buttons */
+}
+
 .actions button {
-  width: 50%;
+  /*width: 50%;*/
   float: left;
   background: transparent;
   border: none;
